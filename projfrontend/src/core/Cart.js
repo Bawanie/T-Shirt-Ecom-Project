@@ -48,7 +48,7 @@ const Cart=()=> {
          ></StripeCheckout>
 
          <br></br>
-         <PaymentB products={products} setreload={setreload}></PaymentB>
+   
         </div>
     </div>
     </Base>
