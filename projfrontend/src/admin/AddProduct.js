@@ -1,7 +1,7 @@
 import React ,{useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
-import Base from '../core/Base'
-import { createProduct, getCategories } from './helper/adminapicall';
+import Base from '../core/Base.js'
+import { createProduct, getCategories } from './helper/adminapicall.js';
 import { isauthenticated } from '../auth/helper';
 
 const AddProduct=()=> {

@@ -1,9 +1,9 @@
 import React ,{useState} from 'react'
-import Base from '../core/Base'
+import Base from '../core/Base.js'
 
 import { Link } from 'react-router-dom'
 import { isauthenticated } from '../auth/helper'
-import { createCategory } from './helper/adminapicall'
+import { createCategory } from './helper/adminapicall.js'
 
 
 
