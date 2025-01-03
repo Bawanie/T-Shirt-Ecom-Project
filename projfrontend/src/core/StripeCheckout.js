@@ -1,11 +1,11 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import React,{useEffect,useState} from 'react'
 import { Link } from 'react-router-dom'
-import { isauthenticated } from '../auth/helper'
-import { cartEmpty, loadCart } from './helper/carthelper'
+import { isauthenticated } from '../auth/helper/index.js'
+import { cartEmpty, loadCart } from './helper/carthelper.js'
 import StripeCheckoutButton from 'react-stripe-checkout'
-import { API } from '../backend'
-import{createOrder} from "./helper/orderHelper"
+import { API } from '../backend.js'
+import{createOrder} from "./helper/orderHelper.js"
 
 const stripeCheckout=({
     products,

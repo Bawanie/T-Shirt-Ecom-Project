@@ -1,6 +1,6 @@
 import React from 'react'
-import Base from '../core/Base'
-import {isauthenticated} from  '../auth/helper/index'
+import Base from '../core/Base.js'
+import {isauthenticated} from  '../auth/helper/index.js'
 import { Link } from 'react-router-dom'
 const AdminDashBoard=()=> {
   const {user:{name,email,role}}=isauthenticated()

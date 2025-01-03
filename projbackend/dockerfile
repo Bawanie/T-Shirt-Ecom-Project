@@ -1,0 +1,22 @@
+# Step 1: Use the official Node.js image (lighter and appropriate for Node.js apps)
+FROM node:20
+
+# Step 2: Set the working directory inside the container
+WORKDIR /usr/src/app
+
+# Step 3: Copy the package.json and package-lock.json files and install dependencies for the backend
+COPY package.json package-lock.json ./
+
+RUN npm install
+
+# Step 4: Copy all the backend source files
+COPY . .
+
+# Step 5: Expose the backend port (assuming backend runs on port 8000)
+EXPOSE 8000
+
+# Step 6: Set the environment variable for MongoDB URI (MongoDB Atlas URI should be stored in .env)
+# Ensure your .env file contains DATABASE=mongodb+srv://<username>:<password>@cluster0.mongodb.net/dbname
+
+# Step 7: Start the application (make sure MongoDB Atlas URI is configured in your code or .env file)
+CMD ["npm", "start"]

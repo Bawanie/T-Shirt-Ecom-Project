@@ -1,4 +1,4 @@
-import {API} from "../../backend";
+import {API} from "../../backend.js";
 
 export const getProducts=()=>{
     return fetch(`${API}/products`,{method:"GET"})

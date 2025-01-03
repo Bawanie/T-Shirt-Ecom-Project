@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import "../styles.css";
 
-import Base from './Base';
-import { loadCart } from './helper/carthelper';
-import Card from './Card';
-import StripeCheckout from './StripeCheckout';
+import Base from './Base.js';
+import { loadCart } from './helper/carthelper.js';
+import Card from './Card.js';
+import StripeCheckout from './StripeCheckout.js';
 
 const Cart = () => {
     const [products, setProducts] = useState([]);

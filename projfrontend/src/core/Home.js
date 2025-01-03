@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import "../styles.css";
 
-import Base from './Base';
-import Card from './Card';
-import { getProducts } from './helper/coreapicalls';
+import Base from './Base.js';
+import Card from './Card.js';
+import { getProducts } from './helper/coreapicalls.js';
 
 export default function Home() {
 

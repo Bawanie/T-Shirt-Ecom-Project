@@ -1,4 +1,4 @@
-import { API } from "../../backend";
+import { API } from "../../backend.js";
 
 //add category
 export const createCategory=(userId,token,category)=>{

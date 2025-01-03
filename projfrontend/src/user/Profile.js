@@ -1,5 +1,5 @@
 import React from 'react'
-import Base from '../core/Base'
+import Base from '../core/Base.js'
 const Profile=()=> {
   return (
    <Base title="Profile Page">

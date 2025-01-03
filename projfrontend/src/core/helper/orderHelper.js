@@ -1,4 +1,4 @@
-import { API } from "../../backend";
+import { API } from "../../backend.js";
 
 export const createOrder=(userId,token,orderData)=>{
      return fetch(`${API}/order/create/${userId}`,{

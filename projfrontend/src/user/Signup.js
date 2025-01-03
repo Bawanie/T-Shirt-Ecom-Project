@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 
-import Base from "../core/Base"
+import Base from "../core/Base.js"
 import { Link } from 'react-router-dom'
-import { signup } from '../auth/helper'
+import { signup } from '../auth/helper/index.js'
 
 const Signup=()=>{
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from './Menu';
+import Menu from './Menu.js';
 const Base=({
    title="My Title",
    description="My description",

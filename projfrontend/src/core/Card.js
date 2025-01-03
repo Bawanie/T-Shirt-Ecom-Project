@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import { Redirect } from 'react-router';
-import { addItemtoCart, removeItemFromCart } from './helper/carthelper';
-import Imagehelper from './helper/Imagehelper';
+import { addItemtoCart, removeItemFromCart } from './helper/carthelper.js';
+import Imagehelper from './helper/Imagehelper.js';
 
 
   

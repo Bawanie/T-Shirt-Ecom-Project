@@ -1,6 +1,6 @@
 import React ,{useState,useEffect}from 'react'
 import { Link } from 'react-router-dom'
-import { isauthenticated } from '../auth/helper';
+import { isauthenticated } from '../auth/helper/index.js';
 import Base from '../core/Base.js'
 import { getProducts,deleteProduct } from './helper/adminapicall.js';
 

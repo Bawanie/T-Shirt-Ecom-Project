@@ -1,4 +1,4 @@
-import {API} from "../../backend";
+import {API} from "../../backend.js";
 //API means http://localhost:8000/api
 
 export const signup=user=>{
